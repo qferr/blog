@@ -1,0 +1,96 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-text color="#241b50" font-size="16px" font-family="arial, helvetica, sans-serif" />
+      <mj-divider border-style="dotted" border-color="red" />
+      <mj-button background-color="red" color="white" />
+    </mj-attributes>
+  </mj-head>
+  <mj-body>
+    <!-- Header -->
+    <mj-section>
+      <mj-column>
+        <mj-image src="https://qferr.github.io/blog/how-to-code-responsive-email/header.png" alt="header image" padding="0"></mj-image>
+      </mj-column>
+    </mj-section>
+    <!-- Title -->
+    <mj-section padding="0">
+      <mj-column>
+        <mj-text align="center" font-weight="bold" font-size="22px" color="red">
+          It's Fri-YAY!
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- Message -->
+    <mj-section padding-top="0">
+      <mj-column>
+        <mj-text align="center">Dear Positive Thinkers,</mj-text>
+        <mj-text align="center">
+          You just opened the <strong style="color:red">Fri-YAY! n°29 🥳</strong>
+        </mj-text>
+        <mj-text align="center">
+          The <strong>Fri-YAY!</strong> is a weekly email regrouping <strong>the hottest news, the latest tech updates, greatest achievements and funniest events,...</strong> of the week.
+        </mj-text>
+        <mj-text align="center">Enjoy the reading !</mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- Divider -->
+    <mj-section padding-top="0">
+      <mj-column>
+        <mj-divider></mj-divider>
+      </mj-column>
+    </mj-section>
+    <!-- Articles -->
+    <mj-section padding="0">
+      <mj-column>
+        <mj-text color="red" font-weight="bold" align="center" font-size="20px">
+          New posts on the Adneom blog 
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- Article -->
+    <mj-section>
+      <!-- Article image -->
+      <mj-column>
+        <mj-image src="https://qferr.github.io/blog/how-to-code-responsive-email/article.jpg" alt="article image"></mj-image>
+      </mj-column>
+      <!-- Article title, description and button -->
+      <mj-column>
+        <mj-text color="#53bfb2" font-size="17px" font-weight="bold">
+          How to code a responsive email ?
+        </mj-text>
+        <mj-text>
+          Creating a responsive email compatible with email clients (Outlook, Gmail, ...) and operating systems (iOS, Android, ...) is a big headache. This article helps you to <strong>create a responsive email in 10 minutes !</strong>
+        </mj-text>
+        <mj-button href="https://www.adneom.com/how-to-code-a-responsive-email">Read</mj-button>
+      </mj-column>
+    </mj-section>
+    <!-- Divider -->
+    <mj-section>
+      <mj-column>
+        <mj-divider></mj-divider>
+      </mj-column>
+    </mj-section>
+    <!-- Footer -->
+    <mj-section>
+      <!-- Signature --> 
+      <mj-column>
+        <mj-text>Enjoy your week-end,</mj-text>
+        <mj-text font-weight="bold" color="red">
+          The Positive Thinking Company Luxembourg
+        </mj-text>
+      </mj-column>
+      <!-- Logo and social networks of the company -->
+      <mj-column>
+        <!-- Logo -->
+        <mj-image align="right" src="https://qferr.github.io/blog/how-to-code-responsive-email/logo.png" width="153px"/>
+        <!-- Social networks -->
+        <mj-social align="right" font-size="15px" icon-size="30px" mode="horizontal">
+          <mj-social-element src="https://qferr.github.io/blog/how-to-code-responsive-email/linkedin.png" href="https://www.linkedin.com/company/adneom"/>
+          <mj-social-element src="https://qferr.github.io/blog/how-to-code-responsive-email/instagram.png" href="https://www.instagram.com/adneom"/>
+          <mj-social-element src="https://qferr.github.io/blog/how-to-code-responsive-email/youtube.png" href="https://www.youtube.com/channel/UCQbeyQI1H1Jy7BtQF6vo8og"/>
+        </mj-social>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
