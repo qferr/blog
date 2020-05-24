@@ -1,5 +1,10 @@
 {% extends 'base.html.twig' %}
 
 {% block body %}
+ {% for label, messages in app.flashes %}
+  {% for message in messages %}
+    {{ message }}
+  {% endfor %}
+ {% endfor %}
  {{ form(form) }}
 {% endblock %}

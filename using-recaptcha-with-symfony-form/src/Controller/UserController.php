@@ -15,7 +15,9 @@ class UserController extends AbstractController
         $form->handleRequest($request);
 
         if ($form->isSubmitted() && $form->isValid()) {
-            return new Response('ok');
+            $this->addFlash('success', 'The form is valid.');
+        } else {
+            $this->addFlash('error', 'The form is invalid.');
         }
 
         return $this->render('registration.html.twig', [
