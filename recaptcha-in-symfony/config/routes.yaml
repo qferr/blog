@@ -1,0 +1,3 @@
+user_registration:
+  path: /user/register
+  controller: App\Controller\UserController::register
